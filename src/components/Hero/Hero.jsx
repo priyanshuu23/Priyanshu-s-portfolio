@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm Priyanshu </h1> 
         {/* <span className="blog-title-emoji">👋</span> */}
         <p className={styles.description}>
-           Aspiring Full-Stack developer in the process of learning Computer Science & Engineering at GGITS.
+           I am a aspiring Full-Stack developer in the process of learning Computer Science & Engineering at GGITS.
            Exploring MERN Stack for crafting WebApps and Websites. Actively working on honing skills 
            through independent projects. 🚀💻
         </p>
