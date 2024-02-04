@@ -9,12 +9,15 @@
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .content {
   display: flex;
+  height: 100%;
+  width: 100%;
+ 
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
@@ -22,7 +25,7 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -39,6 +42,9 @@
 .description {
   font-size: 25px;
   font-family: var(--font-roboto);
+
+  margin-right: 30%;
+
   margin-bottom: 52px;
 }
 
@@ -52,23 +58,37 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-
-.heroImg {
+.imgdiv {
   width: 50%;
+  position: relative;
+  margin-right: 5%;
+}
+.heroBg {
+  width: 110%;
   z-index: 1;
+  height: auto;
+  display: block;
 
+}
+.overlayImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  z-index: 2;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translate(0, -10px);
   }
   100% {
     transform: translate(0, -0px);
@@ -98,7 +118,7 @@
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+  /* background: rgba(25, 55, 109, 0.7); */
   filter: blur(100px);
   z-index: 0;
 }
@@ -106,12 +126,36 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    padding-top: 0%;
+    margin-top: 5%;
   }
 
-  .content {
-    align-items: center;
+  .description {
+    margin-right: 0;
+  }
+
+  /* .content {
+  } */
+
+  .imgdiv {
+    margin-right: 0;
+    width: 40%;
+    align-self: center;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+  .description {
+    font-size: 24px;
+  }
+  .contactBtn {
+    align-self: center;
+    font-size: 20px;
+    padding: 10px 20px;
   }
 }
+
 
 /* for waving hand */
 /* 

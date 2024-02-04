@@ -5,13 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 30px;
   z-index: 2;
-  margin: 0 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
@@ -38,16 +39,23 @@
   text-decoration: none;
 }
 
+/* this applied when clicked on menu button couse of this module */
 @media screen and (max-width: 830px) {
+  /* after the media query, the styles will be applied only if the screen width is less than 900px */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 8%;
+    padding-bottom: 0%;
   }
-
+  .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
+    margin-right: 2%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -57,6 +65,7 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    width: 30px;
   }
 
   .menuItems {
@@ -72,6 +81,7 @@
       rgba(25, 55, 109, 1) 100%
     );
     padding: 24px 33px;
+    /* for inner menu */
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
 

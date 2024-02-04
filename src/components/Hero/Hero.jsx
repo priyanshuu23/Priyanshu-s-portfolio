@@ -18,11 +18,18 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
+      <div className={styles.imgdiv}>
       <img
-        src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
+        src={getImageUrl("hero/bg.png")}
+        alt="Hero background image"
+        className={styles.heroBg}
       />
+      <img
+        src={getImageUrl("hero/img.png")}
+        alt="Hero overlay image"
+        className={`${styles.heroBg} ${styles.overlayImage}`}
+      />
+    </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

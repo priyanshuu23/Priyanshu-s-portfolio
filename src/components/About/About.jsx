@@ -35,12 +35,14 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/androidIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              <h3 className="androidDev" >Android Developer</h3>
+              <p className="androidDev">
+                
+                  I have experience developing Android applications and have designed multiple
+                  user interfaces for mobile apps.
+                
               </p>
             </div>
           </li>
