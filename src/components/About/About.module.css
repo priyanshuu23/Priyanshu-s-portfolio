@@ -4,17 +4,40 @@
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding: 5%;
+  margin-top: 7%;
+  
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+
+  transform: translateY(100%);
+  transition: transform 1s ease; /* Adjust the transition duration and easing function */
 }
+.aboutItemText {
+  font-size: 16px;
+}
+
+.aboutItemText h3 {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.aboutItemText p {
+  padding: 10px; /* Adjust this value to your desired padding */
+}
+
+
+.textScrolling {
+  transform: translateY(0);
+}
+
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 700;
+  padding-left: 5%;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
@@ -25,16 +48,41 @@
   align-items: center;
 }
 
+
+
+.contentBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
 .aboutImage {
   width: 35%;
+}
+.aboutImageBottom {
+  width: 40%;
+  padding: 2%;
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
+  padding-left: 5%;
+  padding-top: 5%;
 }
+.aboutItemsLeft {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-right: 8%;
+}
+
 
 .aboutItem {
   display: flex;
@@ -42,7 +90,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 15px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -57,37 +105,63 @@
   background-size: 100% 100%;
 }
 
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 25px;
-}
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding-bottom: 15%;
+    transition: transform 1s ease;
   }
-
-  .content {
-    flex-direction: column;
-  }
-
   .aboutImage {
     display: none;
   }
-
-  .aboutItems {
-    margin-top: 29px;
+  .aboutImageBottom {
+    display: none;
   }
 
+  .contentBottom {
+    padding: 0% ;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    width: 110%;
+
+  }  
+
+  .aboutItemText h3 {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .aboutItemText p {
+    padding: 5px; /* Adjust this value to your desired padding */
+    font-size: 14px !important;
+  }
+
+  .aboutItems {
+    color: var(--color-text);
+    flex-direction: column;
+  }
+  
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    padding: 0%;
+  }
+  .aboutItemText {
+    padding: 0;
+  }
+  .title {
+    font-size: 35px;
+    margin-left: 27%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-decoration-line: underline;
   }
 }
 .androidDev {

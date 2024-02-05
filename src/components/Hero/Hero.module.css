@@ -11,6 +11,7 @@
   z-index: 1;
   margin-left: 5%;
   margin-right: 5%;
+
 }
 
 .content {
@@ -145,6 +146,7 @@
 
   .title {
     font-size: 40px;
+    padding-top: 7%;
   }
   .description {
     font-size: 24px;
@@ -193,3 +195,9 @@
     transform: rotate(0deg);
   }
 } */
+
+
+
+/* for animathion */
+
+
