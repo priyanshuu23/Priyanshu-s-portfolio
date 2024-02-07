@@ -25,7 +25,7 @@ export const About = () => {
 
           <li className={styles.aboutItem}>
             
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" className={styles.logoImg} />
            
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
@@ -38,7 +38,7 @@ export const About = () => {
 
 
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" className={styles.logoImg} />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p style={{ fontSize: '16px' }}>
@@ -50,7 +50,7 @@ export const About = () => {
 
 
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/androidIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/androidIcon.png")} alt="UI icon" className={styles.logoImg} />
             <div className={styles.aboutItemText}>
               <h3 className="androidDev" >Android Developer</h3>
               <p  style={{ fontSize: '16px' }} className="androidDev">
@@ -74,7 +74,7 @@ export const About = () => {
 
 
           <li className={styles.aboutItem}>
-            <img className="graphicsImg" src={getImageUrl("about/graphics.png")} alt="graphics icon" />
+            <img src={getImageUrl("about/graphics.png")} alt="graphics icon" className={styles.logoImg} />
             <div className={styles.aboutItemText}>
               <h3>Graphics Designer</h3>
               <p style={{ fontSize: '16px' }}>
@@ -86,7 +86,7 @@ export const About = () => {
 
 
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/dsa.png")} alt="UI icon" />
+            <img src={getImageUrl("about/dsa.png")} alt="UI icon" className={styles.logoImg} />
             <div className={styles.aboutItemText}>
               <h3 className="androidDev" >Problem Solving</h3>
               <p  style={{ fontSize: '16px' }} className="androidDev">

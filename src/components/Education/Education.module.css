@@ -1,0 +1,170 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 25px;
+  padding: 1%;
+  margin-top: 7%;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  transition: transform 1s ease; /* Adjust the transition duration and easing function */
+}
+
+.heading {
+  color: var(--color-text);
+  font-size: 50px;
+  font-weight: 700;
+  padding-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 20px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.aboutItems {
+  /* for unordered list */
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.aboutItem {
+  /* for hower effect */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 15px;
+  background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+.educationEntry {
+  border-radius: 8px;
+}
+
+.clgName {
+  font-size: 18px;
+  font-weight: bold;
+}
+.course {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10%;
+    padding-bottom: 15%;
+  }
+  
+  .heading {
+    color: var(--color-text);
+    font-size: 20px;
+    padding-left: 10%;
+    padding-top: 8%;
+    padding-bottom: 10px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+  
+  .aboutItems {
+    /* for unordered list */
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 10px !important; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .aboutItem {
+    /* for hower effect */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 15px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  
+  
+  
+  .aboutItem:hover {
+    background-size: 100% 100%;
+  }
+  .educationEntry {
+    border-radius: 8px;
+  }
+  
+  .clgName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .course {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .details {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
