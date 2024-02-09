@@ -1,30 +1,162 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "skills/html.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
   },
   {
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "skills/css.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
   },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react.png",
+    "url": "https://reactjs.org/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Node.js",
+    "imageSrc": "skills/node.png",
+    "url": "https://nodejs.org/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "imageSrc": "skills/mongodb.png",
+    "url": "https://www.mongodb.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png",
+    "url": "https://firebase.google.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
   },
   {
     "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "skills/figma.png",
+    "url": "https://www.figma.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "graphics and editing"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "url": "https://www.java.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "programming languages"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/C++.png",
+    "url": "https://www.cplusplus.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "programming languages"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png",
+    "url": "https://code.visualstudio.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "IDE's and tools"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png",
+    "url": "https://github.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "IDE's and tools"
+  },
+  {
+    "title": "Android Studio",
+    "imageSrc": "skills/android studio.png",
+    "url": "https://developer.android.com/studio",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "IDE's and tools"
+  },
+  {
+    "title": "Illustrator",
+    "imageSrc": "skills/Adobe illustrator.png",
+    "url": "https://www.adobe.com/products/illustrator.html",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "graphics and editing"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/Adobe Photoshop.png",
+    "url": "https://www.adobe.com/products/photoshop.html",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "graphics and editing"
+  },
+  {
+    "title": "After Effect",
+    "imageSrc": "skills/adobe after effects.png",
+    "url": "https://www.adobe.com/products/aftereffects.html",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "graphics and editing"
+  },
+  {
+    "title": "Premiere Pro",
+    "imageSrc": "skills/Adobe Premiere pro.png",
+    "url": "https://www.adobe.com/products/premiere.html",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "graphics and editing"
+  },
+  {
+    "title": "XML",
+    "imageSrc": "skills/xml.png",
+    "url": "https://www.w3schools.com/xml/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png",
+    "url": "https://www.mysql.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
+  },
+  {
+    "title": "microsoft office",
+    "imageSrc": "skills/microsoft office .png",
+    "url": "https://www.office.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "IDE's and tools"
   }
 ]

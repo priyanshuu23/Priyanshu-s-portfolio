@@ -7,6 +7,7 @@ import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Techstack } from "./components/techStack/techstack";
 // import SplashScreen from './components/SplashScreen/SplashScreen';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <About />
       <Education />
+      <Techstack/>
       <Experience />
       <Projects />
       <Contact />
