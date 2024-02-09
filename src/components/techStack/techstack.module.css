@@ -1,3 +1,6 @@
+
+
+/* techstack.module.css */
 @import "../../vars.css";
 
 .container {
@@ -6,9 +9,11 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
 .container a {
   text-decoration: none;
 }
+
 .container h3 {
   font-size: 25px;
   color: gray;
@@ -28,21 +33,21 @@
 }
 
 .content {
-  
+  display: flex;
   flex-direction: row;
   margin-top: 80px;
   font-size: 30px;
 }
 
-.catagory {
+.category {
   font-weight: 700;
   letter-spacing: 1.75px;
 }
 
 .skills {
-  width: 110%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center align items */
   gap: 60px;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -50,11 +55,8 @@
 
 .skill {
   display: flex;
-  min-width: 150px;
-  max-width: 180px;
   flex-direction: column;
   align-items: center;
-  /* bottom spacing  */
   gap: 11px;
 }
 
@@ -78,23 +80,45 @@
   font-weight: 500;
 }
 
-
-
 @media screen and (max-width: 830px) {
+  .container {
+    color: var(--color-text);
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .title {
+    font-size: 22px;
+    padding-left: 6%;
+  }
+  .container h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
   .content {
     flex-direction: column;
-    align-items: center;
-    gap: 34px;
+    width: 100%;
+    margin-top: 40px;
   }
-
   .skills {
-    width: 100%;
     flex-direction: row;
-    justify-content: center;
-  }
-
-  .history {
+    justify-content: center; /* Center align items */
     width: 100%;
-    gap: 9px;
+  }
+  .skill {
+    min-width: 20px;
+    max-width: 50px;
+  }
+  .skillImageContainer {
+    width: 60px;
+    height: 60px;
+  }
+  .skillImageContainer img {
+    width: 38px;
+  }
+  .skill p {
+    font-size: 14px;
   }
 }
