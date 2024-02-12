@@ -56,6 +56,15 @@
     "category": "web technologies"
   },
   {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png",
+    "url": "https://tailwindcss.com/",
+    "cursorEffect": "pointer",
+    "cursorImage": "cursors/simple.png",
+    "category": "web technologies"
+  },
+
+  {
     "title": "Figma",
     "imageSrc": "skills/figma.png",
     "url": "https://www.figma.com/",
