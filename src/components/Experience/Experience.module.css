@@ -60,6 +60,7 @@
     width: 70%;
     padding: 20px;
     border: 2px solid #40407e;
+    box-shadow: #40407e 0px 0px 10px 0px;
     border-radius: 24px;
     transition: max-height 0.5s ease-out; /* Adding smooth transition */
 }
@@ -128,4 +129,92 @@
 .aboutText p.skills {
     color: rgb(128, 128, 128);
     margin-top: 20px;
+}
+
+@media screen and (max-width: 830px) {
+   
+    .heading {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heading h1 {
+
+        color: var(--color-text);
+        font-size: 22px;
+        font-weight: 700;
+        padding-left: 6%;
+        text-transform: uppercase;
+    }
+    
+    .heading p {
+        font-size: 14px;
+        color: gray;
+    }
+    .xpOut {
+        transform: translate(-45%, 0%);
+        width: 100%;
+    }
+
+    
+.xpSkelleton {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.companyDetails {
+    margin-left: 0%;
+    width: 90%;
+    padding: 10px;
+    box-shadow: #40407e 0px 0px 10px 0px;
+}
+@keyframes slideIn {
+    0% {
+        max-height: 100px;
+    }
+    100% {
+        max-height: 100%; }
+}
+
+
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.about {
+    margin-left: 20px;
+    margin-top: 12px;
+    flex-grow: 1;
+    display: grid;
+    height: 6%;
+}
+
+.about h1 {
+    font-size: 0.9rem;
+}
+
+.aboutText {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 100px;
+    overflow: hidden; /* Add this to ensure overflow is hidden by default */
+}
+
+.aboutText p {
+    font-size: 0.8rem;
+    color: rgb(196, 196, 196);
+}
+
+.aboutText p.skills {
+    color: rgb(128, 128, 128);
+    margin-top: 10px;
+}
+
+
 }
