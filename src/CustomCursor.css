@@ -22,7 +22,7 @@
   .clicked {
     transform: scale(1.5);
   }
-  @media screen and (max-width: 830px) {
+  @media screen and (max-width: 1000px) {
     .custom-cursor {
       display: none;
     }
