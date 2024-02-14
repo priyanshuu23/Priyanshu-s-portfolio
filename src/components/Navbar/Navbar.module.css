@@ -40,7 +40,7 @@
 }
 
 /* this applied when clicked on menu button couse of this module */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1000px) {
   /* after the media query, the styles will be applied only if the screen width is less than 900px */
   .navbar {
     flex-direction: column;

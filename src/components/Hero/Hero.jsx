@@ -14,7 +14,7 @@ export const Hero = () => {
            Exploring MERN Stack for crafting WebApps and Websites. Actively working on honing skills 
            through independent projects. 🚀💻
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:xyz@gmail.com?subject=Hello&body=Hello" target="_blank" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

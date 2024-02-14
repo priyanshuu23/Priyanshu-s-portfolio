@@ -20,7 +20,7 @@ export const Techstack = () => {
   });
 
   return (
-    <section className={styles.container} id="Techstack">
+    <section className={styles.container} id="experience">
       <h2 className={styles.title}>Techstack</h2>
       <div className={styles.content}>
         {Object.entries(categories).map(([category, skills], index) => (

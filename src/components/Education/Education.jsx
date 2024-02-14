@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./Education.module.css";
-import { getImageUrl } from "../../utils";
 
 const Education = () => {
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id="education">
       <h2 className={styles.heading}>Education</h2>
       <div className={styles.content}>
         
