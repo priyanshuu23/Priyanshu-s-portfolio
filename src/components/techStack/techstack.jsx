@@ -28,7 +28,7 @@ export const Techstack = () => {
             <h3> ---&lt; {category} &gt;--- </h3>
             <div className={styles.skills}>
               {skills.map((skill, id) => (
-                <a key={id} href={skill.url} target="_blank" className={styles.skill} data-cursor-effect={skill.cursorEffect || "default"} style={{ cursor: `url(${skill.cursorImage}), auto` }} >
+                <a key={id} href={skill.url} target="_blank" className={styles.skill}>
                   <div className={styles.skillImageContainer}>
                     <img src={getImageUrl(skill.imageSrc)} loading="lazy" alt={skill.title} />
                   </div>

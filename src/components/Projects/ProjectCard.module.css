@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+
 .container {
   display: flex;
   flex-direction: column;
@@ -8,7 +9,16 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  transition: transform 0.3s ease; /* Add transition for smooth zoom */
 }
+
+/* Add hover effect */
+.container:hover {
+  transform: scale(1.05); /* Zoom in a bit on hover */
+}
+
+/* Other styles remain the same */
+
 
 .image {
   margin-bottom: 26px;
