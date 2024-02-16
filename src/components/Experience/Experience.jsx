@@ -16,8 +16,8 @@ const ExperienceItem = ({ jobProfile, companyName, duration, workDescription, sk
         <div className={styles.aboutText}>
           <p className={styles.work}>{workDescription}</p>
           <br />
-          <p className={styles.skills}>{skills}</p>
         </div>
+        <p className={styles.skils} > <a href="#experience"> <b>{skills}</b> </a> </p>
       </div>
     </div>
   );
@@ -26,25 +26,25 @@ const ExperienceItem = ({ jobProfile, companyName, duration, workDescription, sk
 export const Experience = () => {
   const experienceData = [
     {
-      jobProfile: "Frontend Engineer Intern",
-      companyName: "Company 1",
-      duration: "Duration 1",
-      workDescription: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-      skills: "Skills 1: ReactJS, Redux, NodeJs, CSS, HTML, Material UI, Javascript",
+      jobProfile: "Web Dev Intern",
+      companyName: "Code Clause",
+      workDescription: "      As a Web Development Intern at CodeClause, I completed a dynamic one-month internship focused on honing my skills in web development. I delved into various facets like ReactJS ⚛️, HTML, CSS, and JavaScript ⚡. My tenure enhanced my proficiency in ReactJS, allowing me to contribute significantly to building a responsive and user-centric website in collaboration with a talented development team ‍‍. I showcased adept problem-solving abilities and clear communication throughout, culminating in the development of a bespoke ReactJS component ✨ and the successful implementation of a new CSS framework ️. My commitment to writing clean, maintainable code underscores my dedication to excellence in web development.",
+
+      skills: "Skills: ReactJS, NodeJs, CSS, HTML, Material UI, Javascript",
     },
     {
       jobProfile: "Frontend Engineer Intern",
       companyName: "Company 2",
       duration: "Duration 2",
       workDescription: "Work description 2",
-      skills: "Skills 2: ReactJS, Redux, NodeJs, CSS, HTML, Material UI, Javascript",
+      skills: "Skills : ReactJS, Redux, NodeJs, CSS, HTML, Material UI, Javascript",
     },
   ];
 
   return (
     <div className={styles.main}>
       <div className={styles.heading}>
-        <h1>Experience</h1>
+        <h1>Experiences & Trainings</h1>
         <p>My work experience as a software engineer and working on different companies and projects.</p>
       </div>
       <div className={styles.xpOut}>

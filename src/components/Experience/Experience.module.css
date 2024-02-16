@@ -53,7 +53,7 @@
     overflow-y: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     margin-left: 15%;
     width: 70%;
@@ -83,6 +83,13 @@
         max-height: 100%; }
 }
 
+.skils {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    
+
+}
 
 .companyHead {
     display: flex;
@@ -115,17 +122,17 @@
 .aboutText {
     margin-top: 20px;
     max-height: 100px;
-    overflow: hidden; /* Add this to ensure overflow is hidden by default */
+    overflow: hidden;
 }
 
 .aboutText p {
     font-size: 1rem;
-    color: rgb(196, 196, 196);
+    color: rgb(156, 156, 156);
 }
 
 .aboutText p.skills {
     color: rgb(128, 128, 128);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 830px) {
@@ -191,7 +198,7 @@
 }
 
 .about h1 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .aboutText {
@@ -200,7 +207,7 @@
     margin-left: 10px;
     margin-right: 10px;
     max-height: 100px;
-    overflow: hidden; /* Add this to ensure overflow is hidden by default */
+    overflow: hidden; 
 }
 
 .aboutText p {
@@ -210,7 +217,11 @@
 
 .aboutText p.skills {
     color: rgb(128, 128, 128);
-    margin-top: 10px;
+    margin-top: 5px;
+}
+.skils {
+    font-size: 15px;
+    margin-top: 3px;
 }
 
 
