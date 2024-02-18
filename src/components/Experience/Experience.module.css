@@ -116,7 +116,7 @@
 }
 
 .about h1 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 
 .aboutText {
@@ -126,7 +126,7 @@
 }
 
 .aboutText p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(156, 156, 156);
 }
 
@@ -147,7 +147,7 @@
         color: var(--color-text);
         font-size: 22px;
         font-weight: 700;
-        padding-left: 6%;
+        padding-left: 1%;
         text-transform: uppercase;
     }
     
