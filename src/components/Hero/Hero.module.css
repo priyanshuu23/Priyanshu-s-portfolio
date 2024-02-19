@@ -13,6 +13,14 @@
   margin-right: 5%;
 
 }
+.info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.infoo{
+  display: none;
+}
 .aTag {
   text-decoration: none;
 }
@@ -44,8 +52,6 @@
 .info {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .description {
@@ -55,6 +61,7 @@
   margin-right: 30%;
 
   margin-bottom: 52px;
+  margin-top: 10px;
 }
 
 .contactBtn {
@@ -72,7 +79,7 @@
   transform: scale(1.05); 
 }
 .imgdiv {
-  width: 50%;
+  width: 40%;
   position: relative;
   margin-right: 5%;
 }
@@ -164,13 +171,16 @@
     margin-bottom: 0%;
   }
   .info {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: none;
+
+  }
+  .infoo{
+    display: block;
   }
   .description {
+    margin-top: 28px;
     font-size: 24px;
+    margin-bottom: 40px;
   }
   .contactBtn {
     align-self: center;
