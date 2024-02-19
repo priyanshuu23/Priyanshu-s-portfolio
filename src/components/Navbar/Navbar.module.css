@@ -45,11 +45,11 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 8%;
+    padding-top: 4%;
     padding-bottom: 0%;
   }
   .title {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-size: 30px;
   }
   .menu {

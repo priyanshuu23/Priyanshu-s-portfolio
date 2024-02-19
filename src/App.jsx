@@ -21,7 +21,7 @@ function App() {
     // Simulate loading time
     setTimeout(() => {
       setLoading(false); // Once loading is done, set loading to false
-    }, 3000); // Adjust the delay as needed
+    }, 300); // Adjust the delay as needed
   }, []);
 
   const handleMouseEnter = () => {
