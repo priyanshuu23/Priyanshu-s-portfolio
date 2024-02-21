@@ -22,7 +22,6 @@ const SplashScreen = () => {
               <div className={styles.maincontent5}></div>
               <div className={styles.maincontent6}></div>
               <div className={styles.btn}></div>
-              
           </div>
 
       <div className={styles.imgcontainer}></div> </div>

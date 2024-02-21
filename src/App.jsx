@@ -8,7 +8,6 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Techstack } from "./components/techStack/techstack";
 import './CustomCursor.css'; // Import the CSS file for the custom cursor
 
@@ -21,7 +20,7 @@ function App() {
     // Simulate loading time
     setTimeout(() => {
       setLoading(false); // Once loading is done, set loading to false
-    }, 10); // Adjust the delay as needed
+    }, 1); // Adjust the delay as needed
   }, []);
 
   const handleMouseEnter = () => {
@@ -53,7 +52,6 @@ function App() {
           <Experience />
           <Projects />
           <Contact />
-          <SpeedInsights />
         </>
       )}
     </div>

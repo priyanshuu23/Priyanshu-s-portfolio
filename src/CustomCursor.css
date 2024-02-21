@@ -15,13 +15,6 @@
     box-shadow: #40407e 0px 0px 20px 1px;
 }
   
-  .hovered {
-    transform: scale(1.2);
-  }
-  
-  .clicked {
-    transform: scale(1.5);
-  }
   @media screen and (max-width: 1000px) {
     .custom-cursor {
       display: none;
