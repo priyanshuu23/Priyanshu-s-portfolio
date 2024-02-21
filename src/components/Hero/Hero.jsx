@@ -11,7 +11,7 @@ export const Hero = () => {
 
       <a href="mailto:xyz@gmail.com?subject=Hello&body=Hello" target="_blank" className={styles.aTag}>
         <TypeAnimation className={styles.title} 
-        
+          preRenderFirstString={true}
             sequence={[
               "Hi,",
               100,
