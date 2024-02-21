@@ -19,21 +19,23 @@
   position: relative;
   display: flex;
   list-style: none;
-  padding-top: 30px;
+  padding-top: 38px;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 5.5%;
 }
 
 .rectangleone {
-  width: 166px;
-  height: 22px;
+  width: 250px;
+  height: 40px;
+  margin-top: 6px;
   animation: loading 1s linear infinite alternate;
   overflow: hidden;
   border-radius: 10px;
 }
 
 .rectangletwo {
-  width: 650px;
+  margin-top: 6px;
+  width: 700px;
   display: flex;
   margin-left: 650px;
   height: 22px;
@@ -49,7 +51,7 @@
   position: relative;
   border-radius: 10px;
   list-style: none;
-  margin-top: 150px;
+  margin-top: 70px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -64,63 +66,64 @@
 .content {
   width: 555px;
   height: 22px;
-  margin-top: 28px;
+  margin-top: 30px;
   border-radius: 20px;
   animation: loading 1s linear infinite alternate;
 }
 
 .content1 {
+  margin-top: 10px;
   width: 517px;
   height: 22px;
-  margin-top: 10px;
   border-radius: 20px;
   animation: loading 1s linear infinite alternate;
 }
 
 .content2 {
+  margin-top: 10px;
   width: 574px;
   height: 22px;
-  margin-top: 10px;
   border-radius: 20px;
   animation: loading 1s linear infinite alternate;
 }
 
 .maincontent {
-  width: 521px;
   margin-top: 10px;
+  width: 521px;
   height: 22px;
   border-radius: 20px;
   animation: loading 1s linear infinite alternate;
 }
 
 .maincontent3 {
-  width: 406px;
   margin-top: 10px;
+  width: 406px;
   height: 22px;
   border-radius: 20px;
   animation: loading 1s linear infinite alternate;
 }
 
-.maincontent4 {
-  width: 327px;
-  border-radius: 20px;
-  height: 22px;
+/* .maincontent4 {
   margin-top: 10px;
+  width: 327px;
+  margin-top: 5px;
+  border-radius: 20px;
+  height: 26px;
   animation: loading 1s linear infinite alternate;
-}
+} */
 
 .btn {
   width: 206px;
   height: 71px;
   margin-top: 60px;
   animation: loading 1s linear infinite alternate;
-  border-radius: 20px;
+  border-radius: 35px;
   margin-left: 10px;
 }
 
 .imgcontainer {
-  height: 300px;
-  width: 300px;
+  height: 320px;
+  width: 320px;
   margin-right: 100px;
   border-radius: 50%;
   animation: loading 1s linear infinite alternate;
@@ -137,8 +140,8 @@
 
 .imgcontainer {
   flex: 0 0 auto;
-  margin-right: 5%; 
-  margin-top: 100px;
+  margin-right: 9%; 
+  margin-top: 80px;
 }
 
 /* Keyframes for loading animation */
