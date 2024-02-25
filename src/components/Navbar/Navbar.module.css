@@ -39,7 +39,7 @@
 .heading {
   font-size: 25px;
   text-align: center;
-  color: #576cbc;
+  color: #576bbc96;
 }
 .heading > a {
   text-decoration: none;
@@ -52,7 +52,7 @@
 }
 .heading > a:before {
   content: "";
-  background: #576cbc;
+  background: #576bbc96;
   position: absolute;
   width: 100%;
   bottom: 0;
