@@ -35,16 +35,16 @@ export const Navbar = () => {
 
         >
           <li>
-            <a href="#about">About</a>
+            <span className={styles.heading}><a href="#about">About</a></span>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <span className={styles.heading}><a href="#education">Education</a></span>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <span className={styles.heading}><a href="#projects">Projects</a></span>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <span className={styles.heading}><a href="#contact">Contact</a></span>
           </li>
         </ul>
       </div>

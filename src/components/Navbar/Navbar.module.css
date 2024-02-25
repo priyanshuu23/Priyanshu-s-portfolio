@@ -33,11 +33,78 @@
   list-style: none;
 }
 
-.menuItems a {
+/* animation  */
+
+* {position: relative; outline: none;}
+.heading {
   font-size: 25px;
-  color: var(--color-text);
-  text-decoration: none;
+  text-align: center;
+  color: #576cbc;
 }
+.heading > a {
+  text-decoration: none;
+  color: var(--color-text);
+  z-index: 1;
+  padding: 10px;
+  padding: 10px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+.heading > a:before {
+  content: "";
+  background: #576cbc;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  border-radius: 20px;
+  animation: 1s forwards no-hover-v linear;
+  animation-fill-mode: forwards;
+  z-index: -1;
+}
+.heading > a:hover:before,
+.heading > a:focus:before {
+  animation: .5s forwards hover-v linear;
+  animation-fill-mode: forwards;
+}
+@keyframes hover-v {
+  0% {
+      transform: scaleX(0);
+      height: 2px;
+     }
+  45% {   
+      transform: scaleX(1.05);
+      height: 2px;
+     }
+  55% {height: 5px;}
+  100% {
+      transform: scaleX(1.05);
+      height: 2.3rem;
+     }
+}
+@keyframes no-hover-v {
+  0% {
+      transform: scaleX(1.05);
+      height: 2.3rem;
+     }
+  45% {height: 2px;}
+  55% {   
+      transform: scaleX(1.05);
+      height: 2px;
+      opacity: 1;
+     }
+  
+  100% {
+      transform: scaleX(0);
+      height: 2px;
+      opacity: .02;
+     }
+}
+
+
+
+
 
 /* this applied when clicked on menu button couse of this module */
 @media screen and (max-width: 1000px) {
