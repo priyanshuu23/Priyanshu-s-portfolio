@@ -119,6 +119,13 @@
     margin-bottom: 0px;
     font-size: 30px;
   }
+  .heading {
+    color: #576bbc00;
+  }
+  .heading > a:before {
+    background: #576bbc00;
+  }
+
   .menu {
     position: absolute;
     right: 0;
