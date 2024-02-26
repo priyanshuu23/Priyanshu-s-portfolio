@@ -33,7 +33,7 @@ export const Experience = () => {
       companyName: "Code Clause",
       workDescription: "      As a Web Development Intern at CodeClause, I completed a dynamic one-month internship focused on honing my skills in web development. I delved into various facets like ReactJS ⚛️, HTML, CSS, and JavaScript ⚡. My tenure enhanced my proficiency in ReactJS, allowing me to contribute significantly to building a responsive and user-centric website in collaboration with a talented development team ‍‍. I showcased adept problem-solving abilities and clear communication throughout, culminating in the development of a bespoke ReactJS component ✨ and the successful implementation of a new CSS framework ️. My commitment to writing clean, maintainable code underscores my dedication to excellence in web development.",
       skills: "Skills: ReactJS, NodeJs, CSS, HTML, Material UI, Javascript",
-      logo: "../../../assets/history/codeclause.png",
+      logo: "https://beeimg.com/images/n98444847481.png",
       certificate: "https://onedrive.live.com/?authkey=%21AD%5FcaRaT1M2LcuY&cid=4747028FD57E5130&id=4747028FD57E5130%21310&parId=4747028FD57E5130%21309&o=OneUp"
     },
     {
