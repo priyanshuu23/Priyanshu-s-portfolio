@@ -41,7 +41,7 @@ export const Experience = () => {
       companyName: "Muskurahat Foundation",
       workDescription: "🌟 Muskurahat Foundation is a non-profit organization dedicated to improving the lives of underprivileged communities through education, healthcare, and community development. We focus on empowering individuals and fostering sustainable change, operating through a network of dedicated volunteers and professionals committed to making a difference 😊.  As a Volunteer Intern at Muskurahat Foundation, you'll actively contribute to our mission while gaining valuable experience in the non-profit sector. You'll work closely with our team to support various projects aimed at uplifting marginalized communities and promoting social welfare. This opportunity allows you to make a tangible impact while developing essential skills and networking with like-minded individuals. Join us in creating smiles and transforming lives!",
       skills: "Skills : Community Engagement, Event Coordination, Fundraising, Social Media Management,Interpersonal Communication, Team Collaboration",
-      logo:"../../../assets/history/muskurahatFoundation.png",
+      logo:"https://beeimg.com/images/o43146358223.png",
       certificate:"https://internshala.com/student/certificate/111184537/38205C18-0982-DD83-B14F-9A14FFDBA4A9"
     },
   ];
