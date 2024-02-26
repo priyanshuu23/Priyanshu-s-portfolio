@@ -65,10 +65,9 @@
 
 .companyDetails:hover {
     transform: scale(1.05); /* Zoom in a bit on hover */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+    box-shadow: 0px 0px 30px #40407e7e; /* Add shadow on hover */
 }
 
-/* Rest of your CSS remains unchanged */
 
 
 .companyDetails:hover .aboutText {
@@ -77,7 +76,7 @@
 
 @keyframes slideIn {
     0% {
-        max-height: 100px; /* Start from original max-height */
+        max-height: 100px;
     }
     100% {
         max-height: 100%; }
@@ -99,12 +98,10 @@
 }
 
 .logo {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 80px;
     height: 80px;
-    background: #000000;
-    border-radius: 18px;
+    border-radius: 20px;
 }
 
 .about {
@@ -118,6 +115,11 @@
 .about h1 {
     font-size: 1.6rem;
 }
+.about h2 {
+    font-size: 1.3rem;
+    color: rgb(192, 192, 192);
+}
+
 
 .aboutText {
     margin-top: 20px;
@@ -134,6 +136,14 @@
     color: rgb(128, 128, 128);
     margin-top: 10px;
 }
+
+.aboutText p1 {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-style: bold;
+    color: rgb(243, 243, 243);
+}
+
 
 @media screen and (max-width: 830px) {
    
