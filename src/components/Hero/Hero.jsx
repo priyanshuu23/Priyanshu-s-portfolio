@@ -56,9 +56,17 @@ export const Hero = () => {
         </p>
 
 
-        <a href="mailto:xyz@gmail.com?subject=Hello&body=Hello" target="_blank" className={styles.contactBtn}>
-          Contact Me
+        <a href="mailto:xyz@gmail.com?subject=Hello&body=Hello" target="_blank" className={styles.button}>
+                <span className={styles.button__text}>
+                    contact me
+                </span>
+                <img src={getImageUrl("hero/cone.png")} alt="" className={styles.button__cone}/>
+                <img src={getImageUrl("hero/torus.png")} alt="" className={styles.button__torus}/>
+                <img src={getImageUrl("hero/icosahedron.png")} alt="" className={styles.button__icosahedron} />
+                <img src={getImageUrl("hero/sphere.png")} alt="" className={styles.button__sphere}/>
         </a>
+
+
       </div>
       <div className={styles.imgdiv}>
       <img
