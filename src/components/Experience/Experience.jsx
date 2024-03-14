@@ -17,7 +17,7 @@ const ExperienceItem = ({ jobProfile, companyName, duration, workDescription, sk
         </div>
         <div className={styles.aboutText}>
           <p className={styles.work}>{workDescription}</p> <br />
-          <a href={certificate} target="_blank"><p1>View Certificate</p1></a>
+          <a href={certificate} target="_blank"><p className={styles.p1}>View Certificate</p></a>
           <br />
         </div>
         <p className={styles.skils} > <a href="#experience"> <b>{skills}</b> </a> </p>
