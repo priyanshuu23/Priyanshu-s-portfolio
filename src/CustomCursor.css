@@ -15,8 +15,8 @@
     box-shadow: #40407e 0px 0px 20px 1px;
 }
   
-  /* @media screen and (max-width: 700px) {
+  @media screen and (max-width: 763px) {
     .custom-cursor {
       display: none;
     }
-  } */
+  }
