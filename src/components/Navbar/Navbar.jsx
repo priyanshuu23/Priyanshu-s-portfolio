@@ -11,16 +11,18 @@ export const Navbar = () => {
 
   const randomInspectElementMessage = () => {
     const messages = [
-      "Ah, the Inspect Element adventurers have arrived! Bravo! 🕵️‍♂️ But wait, before you delve deeper into the matrix, why not save your precious time? Our entire codebase is readily available on GitHub. Happy exploring! 💻✨",
-      "Well, well, well, another Inspect Element aficionado graces us with their presence! 🧐 You've uncovered our digital secrets, but did you know? The real treasure lies in our GitHub repository. Dive in, if you dare! 💼💾",
-      "Ah, the Inspect Element detectives strike again! 🔍 How thrilling! But hey, why stop at peeking behind the curtains when you can have the whole show? GitHub is where the real coding magic happens. Abracadabra! 🎩✨",
-      "Round of applause for our Inspect Element connoisseur! 👏 Your skills are truly unmatched. But why settle for breadcrumbs when you can feast on the whole loaf? GitHub awaits, dear explorer! 🍞🔍",
-      "Impressive! Another visitor with a keen eye for detail! 👀 You've uncovered our website's secrets, but the real revelation awaits on GitHub. It's like finding the key to a treasure chest...only better! 🗝️💰",
-      "Bravo, Inspect Element virtuoso! 🎭 Your talents shine bright as you uncover the inner workings of our site. But why stop there? GitHub is where the real coding party's at. Join us, won't you? 🎉💻",
-      "Hats off to our Inspect Element maestro! 🎩 You've cracked the code and peered into the digital abyss. But why settle for a glimpse when you can have the whole enchilada on GitHub? ¡Olé! 🌮🕵️‍♂️",
-      "A standing ovation for our Inspect Element sleuth! 🎉 Your detective skills are truly remarkable. But here's a little secret: GitHub holds all the keys to our digital kingdom. Care to unlock the door? 🔑🏰",
-      "Well, well, well, what do we have here? Another Inspect Element prodigy gracing us with their presence! 🌟 But why stop at surface-level exploration when GitHub offers a deep dive into our digital universe? 🌊🚀",
-      "Ah, the Inspect Element adventurers strike again! 🚀 You've boldly gone where many fear to tread. But here's the real kicker: GitHub is the ultimate treasure map. Ready to embark on the coding quest of a lifetime? 🗺️💻"
+      
+        "Give someone a program; you frustrate them for a day; teach them how to program, and you frustrate them for a lifetime. – David Leinweber 😄💻",
+        "Don’t comment bad code – rewrite it. – Brian Kernighan 🚫💬",
+        "No one in the brief history of computing has ever written a piece of perfect software. It’s unlikely that you’ll be the first. – Andy Hunt 🖥️🔍",
+        "A programming language is for thinking about programs, not for expressing programs you’ve already thought of. It should be a pencil, not a pen. – Paul Graham 📝✏️",
+        "Sometimes it pays to stay in bed on Monday rather than spending the rest of the week debugging Monday’s code. – Dan Salomon 😴💡",
+        "Bad programmers worry about the code. Good programmers worry about data structures and their relationships. – Linus Torvalds 👨‍💻🔧",
+        "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. – Martin Fowler 🧠💡",
+        "One of my most productive days was throwing away 1000 lines of code. – Ken Thompson 🗑️💯",
+        "Fix the cause, not the symptom. – Steve Maguire 🔍💡",
+        "Truth can only be found in one place: the code. – Robert C. Martin 🕵️‍♂️💻",
+
     ];
 
     const randomIndex = Math.floor(Math.random() * messages.length);
