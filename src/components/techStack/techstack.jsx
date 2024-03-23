@@ -13,7 +13,7 @@ export const Techstack = () => {
   };
 
   // Populate categories with respective skills
-  skills.forEach(skill => {
+  skills.forEach((skill) => {
     if (categories.hasOwnProperty(skill.category)) {
       categories[skill.category].push(skill);
     }
