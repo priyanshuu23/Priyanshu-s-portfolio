@@ -62,12 +62,12 @@ export const Hero = () => {
             />{" "}
           </a>
         </p>
-          <a
-          href="mailto:priyanshu00023@gmail.com?subject=Hello&body=Hello"
+         <a
+          href="https://1drv.ms/b/s!AjBRftWPAkdHgkdr77SS6In8xVWx?e=yT0Caj"
           target="_blank"
-          className={styles.aTag}
+          className={styles.button}
         >
-          <span className={styles.button__text}>contact me</span>
+          <span className={styles.button__text}>Get My Resume</span>
           <img
             src={getImageUrl("hero/cone.png")}
             alt=""
