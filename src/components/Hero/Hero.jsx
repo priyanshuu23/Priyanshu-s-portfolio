@@ -62,11 +62,10 @@ export const Hero = () => {
             />{" "}
           </a>
         </p>
-
-        <a
+          <a
           href="mailto:priyanshu00023@gmail.com?subject=Hello&body=Hello"
           target="_blank"
-          className={styles.button}
+          className={styles.aTag}
         >
           <span className={styles.button__text}>contact me</span>
           <img
