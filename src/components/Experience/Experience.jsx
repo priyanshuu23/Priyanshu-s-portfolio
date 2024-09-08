@@ -33,7 +33,7 @@ export const Experience = () => {
       companyName: "Code Clause",
       workDescription: "      As a Web Development Intern at CodeClause, I completed a dynamic one-month internship focused on honing my skills in web development. I delved into various facets like ReactJS ⚛️, HTML, CSS, and JavaScript ⚡. My tenure enhanced my proficiency in ReactJS, allowing me to contribute significantly to building a responsive and user-centric website in collaboration with a talented development team ‍‍. I showcased adept problem-solving abilities and clear communication throughout, culminating in the development of a bespoke ReactJS component ✨ and the successful implementation of a new CSS framework ️. My commitment to writing clean, maintainable code underscores my dedication to excellence in web development.",
       skills: "Skills: ReactJS, NodeJs, CSS, HTML, Material UI, Javascript",
-      logo: "https://beeimg.com/images/n98444847481.png",
+      logo: "https://imgbox.com/cRDlkVwy",
       certificate: "https://onedrive.live.com/?authkey=%21AD%5FcaRaT1M2LcuY&cid=4747028FD57E5130&id=4747028FD57E5130%21310&parId=4747028FD57E5130%21309&o=OneUp"
     },
     {
@@ -41,7 +41,7 @@ export const Experience = () => {
       companyName: "Muskurahat Foundation",
       workDescription: "🌟 Muskurahat Foundation is a non-profit organization dedicated to improving the lives of underprivileged communities through education, healthcare, and community development. We focus on empowering individuals and fostering sustainable change, operating through a network of dedicated volunteers and professionals committed to making a difference 😊.  As a Volunteer Intern at Muskurahat Foundation, you'll actively contribute to our mission while gaining valuable experience in the non-profit sector. You'll work closely with our team to support various projects aimed at uplifting marginalized communities and promoting social welfare. This opportunity allows you to make a tangible impact while developing essential skills and networking with like-minded individuals. Join us in creating smiles and transforming lives!",
       skills: "Skills : Community Engagement, Event Coordination, Fundraising, Social Media Management,Interpersonal Communication, Team Collaboration",
-      logo:"https://beeimg.com/images/o43146358223.png",
+      logo:"https://imgbox.com/WXgvEIi4",
       certificate:"https://internshala.com/student/certificate/111184537/38205C18-0982-DD83-B14F-9A14FFDBA4A9"
     },
   ];
