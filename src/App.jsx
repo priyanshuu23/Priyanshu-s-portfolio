@@ -7,8 +7,9 @@ import Education from "./components/Education/Education";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
-// import { Projects } from "./components/Projects/Projects";
+import { Projects } from "./components/Projects/Projects";
 import { Techstack } from "./components/techStack/techstack";
+import { DSA } from "./components/DSA/DSA";
 import './CustomCursor.css'; 
 
 function App() {
@@ -50,7 +51,8 @@ function App() {
           <Education />
           <Techstack/>
           <Experience />
-          {/* <Projects /> */}
+          <Projects />
+          <DSA />
           <Contact />
         </>
       )}

@@ -42,6 +42,27 @@
   text-transform: uppercase;
 }
 
+.subtitle {
+  color: #8899b4;
+  font-size: 15px;
+  padding-left: 5%;
+  margin-bottom: 8px;
+  font-family: var(--font-roboto);
+}
+
+.capability {
+  font-size: 14px !important;
+  color: #a8c0ff;
+  padding: 3px 10px !important;
+  margin-top: 2px;
+}
+
+.proof {
+  font-size: 13px !important;
+  color: #596e8a;
+  padding: 3px 10px !important;
+}
+
 .content {
   display: flex;
   flex-direction: row;
@@ -168,8 +189,4 @@
     padding-bottom: 10px;
     letter-spacing: 1.75px;
   }
-}
-.androidDev {
-  background-color: #a5d7e8;
-  margin-left: 100%;
-}
+}

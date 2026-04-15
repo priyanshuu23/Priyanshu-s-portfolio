@@ -1,33 +1,36 @@
 @import "../../vars.css";
 
-
-
 .container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 40px;
   z-index: 1;
   margin-left: 5%;
   margin-right: 5%;
 }
+
+
 .info {
   margin-top: 20px;
-  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
 
-}
-.infoo{
+/* .infoo {
   display: none;
-}
+} */
+
 .aTag {
   text-decoration: none;
+  padding-bottom:  10px;
 }
+
 .content {
   display: flex;
   height: 100%;
   width: 100%;
- 
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
@@ -35,53 +38,225 @@
 }
 
 .title {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 10px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
-.info {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-}
 
 .description {
-  font-size: 25px;
+  font-size: 18px;
   font-family: var(--font-roboto);
+  line-height: 1.7;
+  margin-right: 28%;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
 
-  margin-right: 30%;
+.role {
+  display: inline-block;
+  background: rgba(87, 108, 188, 0.2);
+  border: 1px solid rgba(87, 108, 188, 0.5);
+  border-radius: 20px;
+  padding: 3px 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #a8c0ff;
+  letter-spacing: 0.3px;
+}
 
-  margin-bottom: 30px;
-  margin-top: 30px;
+.roleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.roleDivider {
+  color: #3d5080;
+  font-size: 1.1em;
+}
+
+.proofBadge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(87, 108, 188, 0.1);
+  border: 1px solid rgba(87, 108, 188, 0.3);
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  color: #8faad4;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.proofBadge strong {
+  color: #c8d8f8;
+  font-weight: 700;
+}
+
+.proofDivider {
+  color: #3d5080;
+  font-size: 1.2em;
+}
+
+.viewProjectsLink {
+  font-size: 14px;
+  color: #576cbc;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+
+.viewProjectsLink:hover {
+  color: #a8c0ff;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.buttonSecondary {
+  background-color: transparent !important;
+  border: 2px solid #576cbc !important;
+  color: #a8c0ff !important;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: .5rem 1.6rem;
+  border-radius: 3rem;
+  transition: .4s;
+  font-size: 1rem;
+}
+
+.buttonSecondary:hover {
+  background: rgba(87, 108, 188, 0.15) !important;
+  transform: scale(1.05);
 }
 
 /* for button  */
-.button{position:relative;background-color:#576cbc;color:#fff;padding:.9rem 2.20rem;border-radius:3rem;transition:.4s}.button::after{content:'';width:80%;height:40%;background:linear-gradient(80deg,#576cbc 10%,#19376d 48%);position:absolute;left:0;right:0;bottom:-4px;margin:0 auto;border-radius:3rem;filter:blur(12px);z-index:-1;opacity:0;transition:opacity .4s}.button__text{position:relative;z-index:999;font-size:200rem;font:var(--font-roboto)}.button img{position:absolute;inset:0;margin:auto;pointer-events:none;transition:.6s;opacity:0}.button__cone{width:18px;transform:translate(-25px,-6px) rotate(55deg);filter:blur(.5px)}.button__torus{width:38px;transform:translate(7px,-14px) rotate(80deg)}.button__icosahedron{width:36px;transform:translate(34px,-4px) rotate(-45deg);filter:blur(.9px)}.button__sphere{width:30px;transform:translate(-5px,15px) rotate(40deg)}.button:hover::after{opacity:1}.button:hover{transform:scale(1.3)}.button:hover img{opacity:1}.button:hover .button__cone{transform:translate(-48px,-19px) scale(2.9)}.button:hover .button__torus{transform:translate(10px,-36px) scale(1.1)}.button:hover .button__icosahedron{transform:translate(60px,-30px) scale(1.1)}.button:hover .button__sphere{transform:translate(-20px,26px) scale(1.4) }
+.button {
+  position: relative;
+  background-color: #576cbc;
+  color: #fff;
+  padding: .5rem 1.6rem;
+  border-radius: 3rem;
+  transition: .4s
+}
 
+.button::after {
+  content: '';
+  width: 80%;
+  height: 40%;
+  background: linear-gradient(80deg, #576cbc 10%, #19376d 48%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  margin: 0 auto;
+  border-radius: 3rem;
+  filter: blur(12px);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .4s
+}
+
+.button__text {
+  position: relative;
+  z-index: 999;
+  font-size: 200rem;
+  font: var(--font-roboto)
+}
+
+.button img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  pointer-events: none;
+  transition: .6s;
+  opacity: 0
+}
+
+.button__cone {
+  width: 18px;
+  transform: translate(-25px, -6px) rotate(55deg);
+  filter: blur(.5px)
+}
+
+.button__torus {
+  width: 38px;
+  transform: translate(7px, -14px) rotate(80deg)
+}
+
+.button__icosahedron {
+  width: 36px;
+  transform: translate(34px, -4px) rotate(-45deg);
+  filter: blur(.9px)
+}
+
+.button__sphere {
+  width: 30px;
+  transform: translate(-5px, 15px) rotate(40deg)
+}
+
+.button:hover::after {
+  opacity: 1
+}
 
 .button:hover {
-  transform: scale(1.05); 
+  transform: scale(1.3)
 }
+
+.button:hover img {
+  opacity: 1
+}
+
+.button:hover .button__cone {
+  transform: translate(-48px, -19px) scale(2.9)
+}
+
+.button:hover .button__torus {
+  transform: translate(10px, -36px) scale(1.1)
+}
+
+.button:hover .button__icosahedron {
+  transform: translate(60px, -30px) scale(1.1)
+}
+
+.button:hover .button__sphere {
+  transform: translate(-20px, 26px) scale(1.4)
+}
+
+/* KEEP override */
+.button:hover {
+  transform: scale(1.05);
+}
+
 .imgdiv {
   width: 40%;
   position: relative;
   margin-right: 5%;
 }
+
 .heroBg {
   width: 110%;
   z-index: 1;
   height: auto;
   display: block;
-
 }
+
 .overlayImage {
   position: absolute;
   top: 0;
@@ -94,24 +269,25 @@
   animation-timing-function: ease-in-out;
 }
 
-
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
   }
+
   50% {
     transform: translate(0, -10px);
   }
+
   100% {
     transform: translate(0, -0px);
   }
 }
 
+/* REMOVED duplicate min-width */
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -121,21 +297,18 @@
   z-index: 0;
 }
 
+/* REMOVED duplicate min-width */
 .bottomBlur {
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  /* background: rgba(25, 55, 109, 0.7); */
   filter: blur(100px);
   z-index: 0;
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .container {
@@ -143,88 +316,45 @@
     padding-top: 0%;
     margin-top: 5%;
   }
+
+  
   .title {
-    font-size: 40px;
+    font-size: 2rem;
+    padding-top: 7%;
+    margin-bottom: 0%;
   }
 
   .imgdiv {
-    /* margin-left: 30%; */
     margin-top: 3%;
     margin-bottom: 7%;
     width: 40%;
     align-self: center;
   }
 
-  .title {
-    font-size: 2rem;
-    padding-top: 7%;
-    margin-bottom: 0%;
-  }
   .info {
     display: none;
-
   }
-  .infoo{
+
+  .infoo {
     display: block;
-    margin-top: 20px;
-    font-size: 20px !important;
+    margin-top: 18px;
+    font-size: 15 px !important;
     margin-bottom: 0%;
+  }
 
-  }
-  .description {
-    margin-top: 25px;
-    font-size: 22px;
-    margin-bottom: 12px;
-    margin-right: 0;
-  }
   .button {
     align-self: center;
-    font-size: 20px;
-    padding: 10px 20px;
+    /* font-size: 10px; */
+    /* padding: 6px 15px; */
     margin-top: 0%;
   }
-}
 
+  .buttonGroup {
+    align-self: center;
+  }
+
+}
 
 /* for waving hand */
-/* 
-.blog-title-emoji {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  15% {
-    transform: rotate(14deg);
-  }
-  30% {
-    transform: rotate(-8deg);
-  }
-  40% {
-    transform: rotate(14deg);
-  }
-  50% {
-    transform: rotate(-4deg);
-  }
-  60% {
-    transform: rotate(10deg);
-  }
-  70% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-} */
-
-
 
 /* for animathion */
-
-
