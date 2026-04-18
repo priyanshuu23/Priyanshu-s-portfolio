@@ -1,71 +1,105 @@
 @import "../../vars.css";
 
-
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
-  transition: transform 0.3s ease; /* Add transition for smooth zoom */
+  border-radius: 12px;
+  background: linear-gradient(160deg, #132a53 0%, #0b2447 100%);
+  border: 1px solid rgba(87, 108, 188, 0.3);
+  box-shadow: 0 8px 24px rgba(4, 21, 45, 0.6);
+  padding: 24px 28px;
+  max-width: 380px;
+  transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
-/* Add hover effect */
 .container:hover {
-  transform: scale(1.05); /* Zoom in a bit on hover */
-}
-
-/* Other styles remain the same */
-
-
-.image {
-  margin-bottom: 26px;
+  transform: translateY(-4px);
+  border-color: rgba(87, 108, 188, 0.7);
 }
 
 .title {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 700;
+  color: #e0e8ff;
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  font-size: 13px;
   font-weight: 400;
+  color: #7a90b0;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.bullet {
+  font-size: 13px;
+  color: #a8c0ff;
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.bullet::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #576cbc;
 }
 
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(87, 108, 188, 0.2);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  margin-bottom: 16px;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 11px;
+  font-weight: 600;
   border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  background: rgba(87, 108, 188, 0.2);
+  border: 1px solid rgba(87, 108, 188, 0.4);
+  color: #a8c0ff;
+  padding: 3px 12px;
+  letter-spacing: 0.3px;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
+  color: #a8c0ff;
+  font-size: 13px;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  border-radius: 6px;
+  background: rgba(87, 108, 188, 0.2);
+  border: 1px solid rgba(87, 108, 188, 0.4);
+  padding: 6px 16px;
+  transition: background 0.2s;
+  flex: 1;
+  text-align: center;
+}
+
+.link:hover {
+  background: rgba(87, 108, 188, 0.4);
 }

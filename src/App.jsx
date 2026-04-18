@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SplashScreen from './components/SplashScreen/SplashScreen'; 
+import SplashScreen from './components/SplashScreen/SplashScreen';
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
@@ -10,7 +10,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Techstack } from "./components/techStack/techstack";
 import { DSA } from "./components/DSA/DSA";
-import './CustomCursor.css'; 
+import './CustomCursor.css';
 
 function App() {
   const [loading, setLoading] = useState(true); // State to manage loading status
@@ -49,7 +49,7 @@ function App() {
           <Hero />
           <About />
           <Education />
-          <Techstack/>
+          <Techstack />
           <Experience />
           <Projects />
           <DSA />

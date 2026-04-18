@@ -1,26 +1,34 @@
 [
   {
-    "title": "Project A",
+    "title": "Spring Boot REST API",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Production-ready CRUD REST API built with Spring Boot. Features JWT-based authentication, role management, and optimized MySQL queries with joins and indexing. Deployed on Render.",
+    "skills": ["Java", "Spring Boot", "MySQL", "JWT", "REST API"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/priyanshuu23"
   },
   {
-    "title": "Project B",
+    "title": "Real-Time Chat Application",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "Real-time messaging system with bi-directional communication using Socket.io. Implemented user sessions, message broadcasting, and optimized server handling for multiple concurrent users.",
+    "skills": ["Node.js", "Socket.io", "MongoDB", "JavaScript"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/priyanshuu23"
   },
   {
-    "title": "Project C",
+    "title": "Task Management System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Real-time task tracking app with Firebase backend. Implemented authentication, cloud data storage, and live updates with a clean Angular interface focused on performance and usability.",
+    "skills": ["Angular", "Firebase", "TypeScript", "HTML", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/priyanshuu23"
+  },
+  {
+    "title": "Social Media Web App",
+    "imageSrc": "projects/project.png",
+    "description": "Full-stack social media platform with user authentication and CRUD operations. Designed REST APIs for handling user data and posts with a responsive React UI and Node.js backend.",
+    "skills": ["React.js", "Node.js", "MongoDB", "REST API"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/priyanshuu23"
   }
 ]

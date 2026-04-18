@@ -4,15 +4,13 @@
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 25px;
-  padding: 5%;
-  margin-top: 7%;
-  
+  padding: 3%;
+  margin-top: 5%;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-
+  margin-left: 5%;
+  margin-right: 5%;
   transform: translateY(100%);
-  transition: transform 1s ease; /* Adjust the transition duration and easing function */
+  transition: transform 1s ease; /* swipe up */
 }
 .aboutItemText {
   font-size: 16px;
@@ -20,11 +18,7 @@
 
 .aboutItemText h3 {
   font-size: 26px;
-  padding: 10px;
-}
-
-.aboutItemText p {
-  padding: 10px; /* Adjust this value to your desired padding */
+  padding: 5px;
 }
 
 
@@ -82,9 +76,10 @@
 
 .aboutImage {
   width: 35%;
+  margin-top: 2%;
 }
 .aboutImageBottom {
-  width: 40%;
+  width: 35%;
   padding: 2%;
 }
 
@@ -92,16 +87,16 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding-left: 5%;
-  padding-top: 5%;
+  gap: 15px;
+  padding-left: 12%;
+  padding-top: 3%;
 }
 .aboutItemsLeft {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding-right: 8%;
+  gap: 20px;
+  padding-right: 4%;
 }
 
 
@@ -111,7 +106,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 15px;
+  padding: 7px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -189,4 +184,4 @@
     padding-bottom: 10px;
     letter-spacing: 1.75px;
   }
-}
+}

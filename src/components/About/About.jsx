@@ -5,22 +5,22 @@ import { getImageUrl } from "../../utils";
 
 const cards = [
   {
-    icon: "serverIcon.png",
-    title: "Java Backend Developer",
-    capability: "Build scalable APIs using Java & Spring Boot",
-    proof: "Built production-ready REST APIs with JWT authentication & MySQL",
-  },
-  {
     icon: "cursorIcon.png",
     title: "IT Analyst @ HCLTech",
     capability: "Operate enterprise systems on ServiceNow platform",
     proof: "Resolved 50+ production incidents — cut resolution time through RCA",
   },
   {
+    icon: "serverIcon.png",
+    title: "Java Backend Developer",
+    capability: "Build scalable APIs using Java & Spring Boot",
+    proof: "Built production-ready REST APIs with JWT authentication & MySQL",
+  },
+  {
     icon: "dsa.png",
     title: "Problem Solver — DSA",
     capability: "Strong in arrays, strings, recursion & basic DP",
-    proof: "Solved 300+ problems on LeetCode / CodeStudio",
+    proof: "Solved 300+ problems on LeetCode / Codechef",
   },
 ];
 

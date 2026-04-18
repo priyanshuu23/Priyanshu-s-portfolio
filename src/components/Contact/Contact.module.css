@@ -24,6 +24,13 @@
   letter-spacing: 2px;
 }
 
+.tagline {
+  font-size: 18px !important;
+  color: #576cbc;
+  letter-spacing: 1px !important;
+  margin-top: 8px;
+}
+
 .links {
   display: flex;
   flex-direction: column;

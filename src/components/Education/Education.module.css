@@ -5,10 +5,10 @@
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 25px;
   padding: 1%;
-  margin-top: 7%;
+  margin-top: 5%;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   transition: transform 1s ease; /* Adjust the transition duration and easing function */
 }
 

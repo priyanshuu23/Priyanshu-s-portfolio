@@ -1,41 +1,61 @@
 import React from "react";
 import styles from "./techstack.module.css";
-import skills from "../../data/skills.json";
-import { getImageUrl } from "../../utils";
+
+const skillGroups = [
+  {
+    category: "Backend Development",
+    skills: [
+      { name: "Java (Core + OOP)", note: "Primary language" },
+      { name: "Spring Boot", note: "REST APIs & MVC" },
+      { name: "REST API Design", note: "Enterprise patterns" },
+      { name: "Node.js", note: "Secondary backend" },
+    ],
+  },
+  {
+    category: "Databases",
+    skills: [
+      { name: "MySQL", note: "Joins, Indexing" },
+      { name: "MongoDB", note: "NoSQL" },
+      { name: "Firebase", note: "Real-time DB" },
+    ],
+  },
+  {
+    category: "CS Fundamentals",
+    skills: [
+      { name: "Data Structures & Algorithms", note: "300+ solved" },
+      { name: "DBMS", note: "Core theory" },
+      { name: "Operating Systems", note: "Core theory" },
+      { name: "Object-Oriented Programming", note: "Design principles" },
+    ],
+  },
+  {
+    category: "Tools & Platforms",
+    skills: [
+      { name: "Git & GitHub", note: "Version control" },
+      { name: "Postman", note: "API testing" },
+      { name: "ServiceNow", note: "Enterprise platform" },
+      { name: "VS Code", note: "Primary IDE" },
+    ],
+  },
+];
 
 export const Techstack = () => {
-  // Group skills by category
-  const categories = {
-    'web technologies': [],
-    'graphics and editing': [],
-    'programming languages': [],
-    "IDE's and tools": []
-  };
-
-  // Populate categories with respective skills
-  skills.forEach((skill) => {
-    if (categories.hasOwnProperty(skill.category)) {
-      categories[skill.category].push(skill);
-    }
-  });
-
   return (
-    <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Techstack</h2>
+    <section className={styles.container} id="skills">
+      <h2 className={styles.title}>Technical Skills</h2>
+      <p className={styles.subtitle}>Backend-focused stack built for production systems</p>
       <div className={styles.content}>
-        {Object.entries(categories).map(([category, skills], index) => (
-          <div key={index} className={styles.category}>
-            <h3> ---&lt; {category} &gt;--- </h3>
-            <div className={styles.skills}>
-              {skills.map((skill, id) => (
-                <a key={id} href={skill.url} target="_blank" className={styles.skill}>
-                  <div className={styles.skillImageContainer}>
-                    <img src={getImageUrl(skill.imageSrc)} loading="lazy" alt={skill.title} />
-                  </div>
-                  <p>{skill.title}</p>
-                </a>
+        {skillGroups.map((group, gi) => (
+          <div key={gi} className={styles.category}>
+            <h3 className={styles.categoryTitle}>{group.category}</h3>
+            <ul className={styles.skills}>
+              {group.skills.map((skill, si) => (
+                <li key={si} className={styles.skill}>
+                  <span className={styles.skillName}>{skill.name}</span>
+                  <span className={styles.skillNote}>{skill.note}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         ))}
       </div>

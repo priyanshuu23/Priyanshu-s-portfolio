@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,7 +7,8 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <p>Open to Backend / Java Developer opportunities</p>
+        <p className={styles.tagline}>Let's build something together.</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -16,15 +16,16 @@ export const Contact = () => {
           <a href="mailto:priyanshu00023@gmail.com">priyanshu00023@gmail.com</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/priyanshu23/">linkedin.com/priyanshu23</a>
+          <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" />
+          <a href="https://www.linkedin.com/in/priyanshu23/" target="_blank" rel="noreferrer">
+            linkedin.com/in/priyanshu23
+          </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/priyanshuu23">github.com/priyanshuu23</a>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="GitHub icon" />
+          <a href="https://github.com/priyanshuu23" target="_blank" rel="noreferrer">
+            github.com/priyanshuu23
+          </a>
         </li>
       </ul>
     </footer>

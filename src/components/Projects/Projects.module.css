@@ -1,26 +1,41 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 100px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #8899b4;
+  font-size: 16px;
+  margin-bottom: 36px;
+  font-family: var(--font-roboto);
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
