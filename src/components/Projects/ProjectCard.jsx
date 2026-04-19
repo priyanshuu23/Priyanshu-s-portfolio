@@ -7,26 +7,38 @@ export const ProjectCard = ({
   return (
     <div className={styles.container}>
       <h3 className={styles.title}>{title}</h3>
+
       <p className={styles.description}>{description}</p>
-      {bullets && bullets.length > 0 && (
+
+      {bullets?.length > 0 && (
         <ul className={styles.bullets}>
-          {bullets.map((b, i) => (
-            <li key={i} className={styles.bullet}>{b}</li>
+          {bullets.slice(0, 4).map((b, i) => (  // LIMIT bullets (important)
+            <li key={i} className={styles.bullet}>
+              {b}
+            </li>
           ))}
         </ul>
       )}
+
       <ul className={styles.skills}>
         {skills.map((skill, id) => (
-          <li key={id} className={styles.skill}>{skill}</li>
+          <li key={id} className={styles.skill}>
+            {skill}
+          </li>
         ))}
       </ul>
+
       <div className={styles.links}>
-        <a href={demo} target="_blank" className={styles.link}>
-          Demo ↗
-        </a>
-        <a href={source} target="_blank" className={styles.link}>
-          GitHub ↗
-        </a>
+        {demo && (
+          <a href={demo} target="_blank" rel="noreferrer" className={styles.link}>
+            Demo ↗
+          </a>
+        )}
+        {source && (
+          <a href={source} target="_blank" rel="noreferrer" className={styles.link}>
+            GitHub ↗
+          </a>
+        )}
       </div>
     </div>
   );

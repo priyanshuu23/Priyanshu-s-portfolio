@@ -4,64 +4,84 @@ import { ProjectCard } from "./ProjectCard";
 
 const projects = [
   {
-    title: "Spring Boot REST API",
-    description: "Production-ready CRUD REST API with JWT authentication and MySQL backend.",
+    title: "Incident Pattern Analyzer (Major Project)",
+    description: "Backend system to track production incidents, detect recurring issues, and analyze service-level failure patterns.",
     bullets: [
-      "Implemented JWT authentication & role-based access control",
-      "Designed optimized MySQL queries with joins and indexing",
-      "Built scalable REST endpoints following MVC architecture",
+      "Designed REST APIs to log and manage incidents with priority, service, and affected user data",
+      "Implemented pattern detection using grouping (top recurring issues, failure-prone services)",
+      "Built dashboard APIs for trends (incident spikes, resolution stats, service impact)",
+      "Optimized queries with pagination, sorting, and indexing for large datasets",
+      "Added global exception handling and structured logging for reliability"
     ],
-    skills: ["Java", "Spring Boot", "MySQL", "JWT", "REST API"],
+    skills: ["Java", "Spring Boot", "MySQL", "REST API", "Backend Design"],
     demo: "https://www.example.com",
     source: "https://github.com/priyanshuu23",
   },
   {
-    title: "Real-Time Chat Application",
-    description: "Bi-directional messaging system with user sessions and concurrent user handling.",
+    title: "ServiceNow Incident Automation Panel",
+    description: "Utility panel to streamline incident tracking, updates, and workflow visibility in ServiceNow-like environments.",
     bullets: [
-      "Implemented real-time communication using Socket.io",
-      "Built user session management and message broadcasting",
-      "Optimized server for handling multiple concurrent connections",
+      "Designed structured workflow for incident lifecycle (Open → In Progress → Resolved)",
+      "Implemented filtering and search for faster issue tracking and resolution",
+      "Tracked incident activity logs and status transitions for debugging",
+      "Improved visibility of recurring issues through categorized incident views"
     ],
-    skills: ["Node.js", "Socket.io", "MongoDB", "JavaScript"],
+    skills: ["ServiceNow", "Incident Management", "Workflow Design"],
     demo: "https://www.example.com",
     source: "https://github.com/priyanshuu23",
   },
   {
-    title: "Task Management System",
-    description: "Real-time task tracker with Firebase authentication and live data sync.",
+    title: "Production Issue Tracker (ServiceNow Use-Case)",
+    description: "System to simulate real-world production support workflows with SLA-based incident handling.",
     bullets: [
-      "Integrated Firebase Authentication for secure user access",
-      "Implemented real-time data sync with Firestore",
-      "Designed clean Angular UI with focus on usability",
+      "Handled incident prioritization (P1, P2, P3) with SLA-based tracking logic",
+      "Designed backend logic for assigning, updating, and resolving incidents",
+      "Simulated real production scenarios including recurring failures and escalation",
+      "Built structured data model to track affected services and users"
     ],
-    skills: ["Angular", "Firebase", "TypeScript", "HTML"],
+    skills: ["ServiceNow", "Production Support", "Incident Handling"],
     demo: "https://www.example.com",
     source: "https://github.com/priyanshuu23",
   },
   {
-    title: "Social Media Web App",
-    description: "Full-stack social platform with REST APIs, auth, and CRUD operations.",
+    title: "Creative Scrapyard (Android App)",
+    description: "Android application for sharing and exploring creative ideas with structured content management.",
     bullets: [
-      "Designed REST APIs for user data, posts, and interactions",
-      "Implemented authentication and protected routes",
-      "Connected React frontend with Node.js + MongoDB backend",
+      "Built Android app using Java with structured activity lifecycle handling",
+      "Implemented CRUD operations for managing user-generated content",
+      "Designed responsive UI for smooth navigation and usability",
+      "Managed local data storage and retrieval efficiently"
     ],
-    skills: ["React.js", "Node.js", "MongoDB", "REST API"],
+    skills: ["Java", "Android", "XML", "SQLite"],
     demo: "https://www.example.com",
     source: "https://github.com/priyanshuu23",
-  },
+  }
 ];
 
 export const Projects = () => {
+  const total = projects.length;
+
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
-      <p className={styles.subtitle}>Backend-heavy projects demonstrating real technical depth</p>
+      <p className={styles.subtitle}>
+        Backend-heavy projects demonstrating real technical depth
+      </p>
+
       <div className={styles.projects}>
-        {projects.map((project, id) => (
-          <ProjectCard key={id} project={project} />
-        ))}
+        {projects.map((project, i) => {
+          let spanClass = "";
+
+          // Smart balancing logic
+          if (total === 5 && i >= 3) spanClass = styles.span2;
+          if (total === 2) spanClass = styles.span2;
+
+          return (
+            <div key={i} className={spanClass}>
+              <ProjectCard project={project} />
+            </div>
+          );
+        })}
       </div>
     </section>
   );

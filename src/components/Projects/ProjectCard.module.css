@@ -1,4 +1,5 @@
-@import "../../vars.css";
+
+
 
 .container {
   display: flex;
@@ -7,8 +8,9 @@
   background: linear-gradient(160deg, #132a53 0%, #0b2447 100%);
   border: 1px solid rgba(87, 108, 188, 0.3);
   box-shadow: 0 8px 24px rgba(4, 21, 45, 0.6);
-  padding: 24px 28px;
-  max-width: 380px;
+  padding: 18px;
+  width: 100%;
+  height: 100%;
   transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
@@ -18,35 +20,35 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #e0e8ff;
-  margin-bottom: 8px;
-  letter-spacing: 0.3px;
+  margin-bottom: 6px;
 }
 
 .description {
   font-size: 13px;
-  font-weight: 400;
   color: #7a90b0;
-  margin-bottom: 14px;
-  line-height: 1.5;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
 .bullets {
+  word-break: break-word;
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .bullet {
-  font-size: 13px;
+  font-size: 12px;
   color: #a8c0ff;
   padding-left: 14px;
   position: relative;
-  line-height: 1.5;
+  line-height: 1.4;
+  word-break: break-word;
 }
 
 .bullet::before {
@@ -57,49 +59,41 @@
 }
 
 .skills {
-  width: 100%;
   margin-top: auto;
-  padding-top: 14px;
+  padding-top: 10px;
   border-top: 1px solid rgba(87, 108, 188, 0.2);
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .skill {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   border-radius: 100px;
   background: rgba(87, 108, 188, 0.2);
   border: 1px solid rgba(87, 108, 188, 0.4);
   color: #a8c0ff;
-  padding: 3px 12px;
-  letter-spacing: 0.3px;
+  padding: 3px 10px;
 }
 
 .links {
-  width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .link {
   text-decoration: none;
   color: #a8c0ff;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   border-radius: 6px;
   background: rgba(87, 108, 188, 0.2);
   border: 1px solid rgba(87, 108, 188, 0.4);
-  padding: 6px 16px;
-  transition: background 0.2s;
-  flex: 1;
+  padding: 6px 10px;
+  flex: 1 1 100px;
   text-align: center;
-}
-
-.link:hover {
-  background: rgba(87, 108, 188, 0.4);
 }
