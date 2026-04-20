@@ -317,6 +317,17 @@
     margin-top: 5%;
   }
 
+  .description {
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    line-height: 1.7;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+    .description br {
+      display: none;
+    }
   
   .title {
     font-size: 2rem;

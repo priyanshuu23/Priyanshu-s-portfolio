@@ -7,7 +7,8 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Open to Backend / Java Developer opportunities</p>
+        <p>Let's talk.</p>
+            <p3>I'm looking for backend developer roles where I can write real code and build things that scale. If that's something you're hiring for, I'd love to connect.</p3>
         <p className={styles.tagline}>Let's build something together.</p>
       </div>
       <ul className={styles.links}>
